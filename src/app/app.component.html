@@ -1,0 +1,101 @@
+<div class="page">
+  <div class="page-top">
+    <header class="header" [class.header--hidden]="headerHidden()">
+    <nav class="nav-left" aria-label="Primary">
+      <a class="nav-link is-active" routerLink="/">Home</a>
+      <a class="nav-link" href="#contact">Contact</a>
+    </nav>
+    <a class="logo" routerLink="/">Listenabl</a>
+    <div class="social" aria-label="Social links">
+      <a href="#" class="social-link" aria-label="Instagram">
+        <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true">
+          <path
+            fill="currentColor"
+            d="M7 2h10a5 5 0 0 1 5 5v10a5 5 0 0 1-5 5H7a5 5 0 0 1-5-5V7a5 5 0 0 1 5-5Zm0 2a3 3 0 0 0-3 3v10a3 3 0 0 0 3 3h10a3 3 0 0 0 3-3V7a3 3 0 0 0-3-3H7Zm5 3.5A4.5 4.5 0 1 1 7.5 12 4.5 4.5 0 0 1 12 7.5Zm0 2A2.5 2.5 0 1 0 14.5 12 2.5 2.5 0 0 0 12 9.5ZM17.5 6.5a1 1 0 1 1-1 1 1 1 0 0 1 1-1Z"
+          />
+        </svg>
+      </a>
+      <a href="#" class="social-link" aria-label="SoundCloud">
+        <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true">
+          <path
+            fill="currentColor"
+            d="M6 11.5c0-.8-.7-1.5-1.5-1.5S3 10.7 3 11.5v1C3 13.3 3.7 14 4.5 14S6 13.3 6 12.5v-1Zm3-2a1.5 1.5 0 0 0-1.5 1.5v3c0 .8.7 1.5 1.5 1.5S12 14.8 12 14v-3c0-.8-.7-1.5-1.5-1.5Zm3 4.5a1.5 1.5 0 0 0-1.5 1.5v1c0 .8.7 1.5 1.5 1.5S15 18.8 15 18v-1c0-.8-.7-1.5-1.5-1.5Zm3-4A1.5 1.5 0 0 0 13.5 14v4c0 .8.7 1.5 1.5 1.5S18 18.8 18 18v-4c0-.8-.7-1.5-1.5-1.5Zm3 2A1.5 1.5 0 0 0 16.5 16v5c0 .8.7 1.5 1.5 1.5s1.5-.7 1.5-1.5v-5c0-.8-.7-1.5-1.5-1.5Z"
+          />
+        </svg>
+      </a>
+      <a href="#" class="social-link" aria-label="Facebook">
+        <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true">
+          <path
+            fill="currentColor"
+            d="M13.5 22v-8h2.7l.4-3.2h-3.1V8.9c0-.9.25-1.5 1.6-1.5H17V4.4c-.3 0-1.4-.1-2.6-.1-2.6 0-4.4 1.6-4.4 4.5v2.5H7.8V14h2.2v8h3.5Z"
+          />
+        </svg>
+      </a>
+      <a href="#" class="social-link" aria-label="TikTok">
+        <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true">
+          <path
+            fill="currentColor"
+            d="M16.6 5.8c1 .9 2.2 1.4 3.5 1.4v3.3a6.6 6.6 0 0 1-3.5-1v6.7c0 3.7-3 6.8-6.8 6.8S3 19 3 15.2c0-3.1 2.4-5.7 5.5-6.1v3.3c-.9.3-1.5 1.1-1.5 2.1 0 1.2 1 2.2 2.2 2.2s2.2-1 2.2-2.2V2h3.2a6.5 6.5 0 0 0 2 3.8Z"
+          />
+        </svg>
+      </a>
+      <a href="#" class="social-link" aria-label="Spotify">
+        <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true">
+          <path
+            fill="currentColor"
+            d="M12 2a10 10 0 1 0 10 10A10 10 0 0 0 12 2Zm4.7 14.5c-.2.3-.6.5-1 .3-2.8-1.6-6.2-2-9.4-1.1-.4.1-.8-.1-1-.4s-.1-.8.3-1c3.6-1 7.4-.6 10.5 1.2.4.3.5.7.3 1Zm1.3-3.5c-.2.5-.8.7-1.3.4-3.2-1.9-8.1-2.4-11.8-1.3-.5.1-1-.2-1.2-.7s.2-1 .7-1.2C8.7 8.7 14 9.3 17.6 11.4c.5.3.7.9.4 1.4Zm.1-3.6c-3.8-2.3-10.2-2.5-13.8-1.4-.6.2-1.2-.1-1.4-.7s.1-1.2.7-1.4c4.1-1.2 11.2-1 15.6 1.5.6.4.8 1.1.4 1.7-.3.5-1 .7-1.5.3Z"
+          />
+        </svg>
+      </a>
+    </div>
+  </header>
+
+  <section class="hero" aria-labelledby="hero-title">
+    <div class="hero-inner">
+      <div class="hero-copy">
+        <p class="eyebrow">New single</p>
+        <h1 id="hero-title" class="title">
+          <span class="title-line">Dirty Laundry —</span>
+          <span class="title-line">Ashley Lovette</span>
+        </h1>
+        <p class="release" id="contact">Available 5/10 on all streaming platforms</p>
+      </div>
+      <div class="hero-frame">
+        <div class="hero-photo-wrap">
+          <img
+            class="hero-img"
+            src="hero-photo.png"
+            width="600"
+            height="600"
+            alt="Studio setup"
+          />
+        </div>
+      </div>
+    </div>
+  </section>
+  </div>
+
+  <section class="shows" aria-labelledby="live-shows-title">
+    <div class="shows-inner">
+      <h2 id="live-shows-title" class="shows-title">
+        <span class="shows-title-line">Live</span>
+        <span class="shows-title-line">Shows</span>
+      </h2>
+      <ul class="shows-list">
+        @for (show of liveShows; track show.date + show.title) {
+          <li class="show-item">
+            <span class="show-date">{{ show.date }}</span>
+            <div class="show-detail">
+              <p class="show-title">{{ show.title }}</p>
+              @if (show.venue) {
+                <p class="show-venue">{{ show.venue }}</p>
+              }
+            </div>
+          </li>
+        }
+      </ul>
+    </div>
+  </section>
+
+  <router-outlet />
+</div>
